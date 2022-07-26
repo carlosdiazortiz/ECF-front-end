@@ -9,3 +9,4 @@ fields:
   label: test
 pages:
 - src/test/test.md
+- src/test/test2.md
