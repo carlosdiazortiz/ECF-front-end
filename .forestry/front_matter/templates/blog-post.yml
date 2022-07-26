@@ -9,4 +9,5 @@ fields:
   label: titre
 pages:
 - src/loro/cuento.md
+- src/loro/raro.md
 - src/loro/test.md
