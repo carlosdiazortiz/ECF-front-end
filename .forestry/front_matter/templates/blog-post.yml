@@ -1,4 +1,15 @@
 ---
 label: Blog post
 hide_body: true
-fields: []
+fields:
+- name: hola
+  type: image_gallery
+  config: {}
+  label: hola
+  description: dsfsdfsd
+- name: hola2
+  type: file
+  config:
+    maxSize: 64
+  label: hola2
+  description: fgfdgdf
