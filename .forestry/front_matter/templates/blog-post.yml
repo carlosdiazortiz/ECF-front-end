@@ -13,6 +13,3 @@ fields:
     maxSize: 64
   label: hola2
   description: fgfdgdf
-pages:
-- perro/hi.md
-- posts/hola.html

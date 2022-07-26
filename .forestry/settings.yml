@@ -3,25 +3,7 @@ new_page_extension: md
 auto_deploy: false
 admin_path: ''
 webhook_url: 
-sections:
-- type: directory
-  path: src/ganzo
-  label: ganzo
-  create: all
-  match: "**/*"
-- type: document
-  path: casa
-  label: casa
-- type: directory
-  path: perro
-  label: perro
-  create: all
-  match: "**/*"
-- type: directory
-  path: posts
-  label: posts
-  create: all
-  match: "**/*"
+sections: 
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
