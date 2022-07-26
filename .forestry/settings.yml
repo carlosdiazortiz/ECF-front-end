@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/casa
   label: casa
-  match: "**/*"
 - type: directory
   path: perro
   label: perro
