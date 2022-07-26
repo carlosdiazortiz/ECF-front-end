@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: titre
+pages:
+- src/loro/test.md
