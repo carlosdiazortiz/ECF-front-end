@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: src/casa
+  path: casa
   label: casa
 - type: directory
   path: perro
