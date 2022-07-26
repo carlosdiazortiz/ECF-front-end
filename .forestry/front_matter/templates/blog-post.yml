@@ -1,4 +1,9 @@
 ---
 label: blog post
 hide_body: false
-fields: []
+fields:
+- name: titre
+  type: text
+  config:
+    required: false
+  label: titre
