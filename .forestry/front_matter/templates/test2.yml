@@ -1,4 +1,9 @@
 ---
 label: test2
 hide_body: false
-fields: []
+fields:
+- name: test2
+  type: text
+  config:
+    required: false
+  label: test2
