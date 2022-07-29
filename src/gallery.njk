@@ -5,27 +5,10 @@ layout: layout.njk
 <div class="container-fluid">
   <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
     <div class="col">
-      <h3>Mariage</h3>
-      <img src="/_data/images/charles_cantin.png" alt="">
-    </div>
-    <div class="col">
-      <h3>Grossesse</h3>
-      <img src="/_data/images/charles_cantin.png" alt="">
-    </div>
-    <div class="col">
-      <h3>Bébé</h3>
-      <img src="/_data/images/charles_cantin.png" alt="">
-    </div>
-    <div class="col">
-      <h3>Famille</h3>
-      <img src="/_data/images/charles_cantin.png" alt="">
-    </div>
-    <div class="col">
-      <h3>Couple</h3>
-      <img src="/_data/images/charles_cantin.png" alt="">
-    </div>
-    <div class="col">
-      <h3>Portrait</h3>
+      {%- for gallery in collections.gallery -%}
+        <h3>{{ category.data.category }}</h3>
+      {%- endfor -%}
+      
       <img src="/_data/images/charles_cantin.png" alt="">
     </div>
   </div>
