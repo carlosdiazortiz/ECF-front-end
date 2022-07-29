@@ -17,4 +17,5 @@ fields:
   default: []
   label: tags
 pages:
+- src/gallery/grossesse.md
 - src/gallery/mariage-1.md
