@@ -18,6 +18,7 @@ fields:
   label: tags
 pages:
 - src/gallery/bebe.md
+- src/gallery/couple.md
 - src/gallery/famille.md
 - src/gallery/grossesse.md
 - src/gallery/mariage-1.md
