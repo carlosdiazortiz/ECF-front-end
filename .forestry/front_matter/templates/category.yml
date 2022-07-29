@@ -2,3 +2,5 @@
 label: Category
 hide_body: true
 fields: []
+pages:
+- src/gallery/mariage.md
