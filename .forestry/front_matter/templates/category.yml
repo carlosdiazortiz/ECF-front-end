@@ -17,3 +17,4 @@ fields:
   label: tags
 pages:
 - src/gallery/mariage.md
+- src/gallery/portrait.md
