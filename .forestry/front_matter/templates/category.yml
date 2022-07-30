@@ -27,6 +27,7 @@ fields:
     maxSize: 64
   label: photo
 pages:
+- src/gallery/bebe.md
 - src/gallery/famille.md
 - src/gallery/mariage.md
 - src/gallery/portrait.md
