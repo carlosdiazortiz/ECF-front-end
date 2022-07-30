@@ -15,6 +15,11 @@ fields:
   type: tag_list
   default: []
   label: tags
+- name: photo
+  type: file
+  config:
+    maxSize: 64
+  label: photo
 pages:
 - src/gallery/mariage.md
 - src/gallery/portrait.md
