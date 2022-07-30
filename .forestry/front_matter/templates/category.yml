@@ -16,5 +16,3 @@ fields:
   type: tag_list
   default: []
   label: tags
-pages:
-- src/gallery/bapteme.md
