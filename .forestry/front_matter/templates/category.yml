@@ -17,6 +17,7 @@ fields:
   default: []
   label: tags
 pages:
+- src/gallery/bapteme.md
 - src/gallery/bebe.md
 - src/gallery/couple.md
 - src/gallery/famille.md
