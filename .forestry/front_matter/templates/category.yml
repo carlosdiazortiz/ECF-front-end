@@ -11,6 +11,12 @@ fields:
   type: image_gallery
   config: {}
   label: photos
+  showOnly:
+    field: showphoto
+    value: true
+- name: showphoto
+  type: boolean
+  label: showphoto
 - name: tags
   type: tag_list
   default: []
