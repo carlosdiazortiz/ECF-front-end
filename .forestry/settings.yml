@@ -5,9 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: src/test
+  path: src/gallery/famille.md
   label: test
-  read_only: false
 - type: directory
   path: src/gallery
   label: Gallery
