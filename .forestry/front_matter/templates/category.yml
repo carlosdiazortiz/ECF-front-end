@@ -22,4 +22,5 @@ fields:
   label: photos
 pages:
 - src/gallery/famille.md
+- src/gallery/famille.md
 - src/gallery/mariage.md
