@@ -1,6 +1,6 @@
 ---
 tags:
-- category
+- gallery
 category: famille
 photo: "../uploads/zhivko-minkov-ths82pkn5rg-unsplash.jpg"
 photos:
