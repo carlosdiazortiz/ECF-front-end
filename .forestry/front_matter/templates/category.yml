@@ -25,4 +25,3 @@ fields:
   label: photo
 pages:
 - src/gallery/bebe.md
-- src/gallery/famille.md
