@@ -14,9 +14,6 @@ fields:
   showOnly:
     field: showphoto
     value: true
-- name: showphoto
-  type: boolean
-  label: showphoto
 - name: tags
   type: tag_list
   default: []
