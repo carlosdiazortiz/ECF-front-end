@@ -20,3 +20,5 @@ fields:
   type: image_gallery
   config: {}
   label: photos
+pages:
+- src/gallery/famille.md
