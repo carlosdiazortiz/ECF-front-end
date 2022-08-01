@@ -7,7 +7,7 @@ layout: layout.njk
     
       {%- for category in collections.gallery %}
       <div class="col">
-        <a href="#"><h3>{{ category.data.category }}</h3></a> 
+        <a href="{{ category.url }}"><h3>{{ category.data.category }}</h3></a> 
         <img src="{{ category.data.photo }}" class="img-fluid" alt="">
         </div>
       {%- endfor %}
