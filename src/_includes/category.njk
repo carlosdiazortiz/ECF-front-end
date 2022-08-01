@@ -2,6 +2,16 @@
 layout: layout.njk
 ---
 
-{{ category }}
+<h1>{{ category }}</h1>
+<div class="container-fluid">
+    <div class="row row-cols-6">
+        {%- for item in photos %}
+        <div class="col">
+            <img src="{{ item }}" class="img-fluid" alt=""> 
+        </div>
+        {%- endfor %}
+    </div>
+</div>
 
 {{ content | safe }}
+
