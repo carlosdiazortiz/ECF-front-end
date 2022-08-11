@@ -9,27 +9,86 @@
   <link rel="stylesheet" href="../../css/bootstrap.min.css">
 </head>
 <body>
-  <header>
-  <p>Barre de navigation</p>
+  
+<img src="../uploads/wioson-jiang.png" class="img-fluid index-img" alt="">
+  <header class="sticky-top">
+  <div class="container-fluid pb-5">
+    <div class=row>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">
+          <img src="../../uploads/charles_cantin2.png" alt="" class="charles-cantin-logo">
+        </a>
+        <button 
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Galerie</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Tarifs et prestations</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
 </header>
-  <h1>Voici ma gallerie photo</h1>
-<div class="container-fluid">
+
+
+
+
+  
+<div class="container-fluid m-2">
+  <div class="row pb-5">
+    <h1>Galerie photo</h1>
+  </div>
   <div class="row row-cols-6">
-      <div class="col">
-        <a href="/gallery/famille/"><h3>famille</h3></a> 
-        <img src="../../uploads/zhivko-minkov-ths82pkn5rg-unsplash.jpg" class="img-fluid" alt="">
-        </div>
-      <div class="col">
-        <a href="/gallery/mariage/"><h3>mariage</h3></a> 
-        <img src="../../uploads/zhivko-minkov-ths82pkn5rg-unsplash.jpg" class="img-fluid" alt="">
-        </div>
+    <div class="col">
+      <div class="card">
+        <a href="/gallery/famille/" class="text-decoration-none">
+          <img src="../../uploads/zhivko-minkov-ths82pkn5rg-unsplash.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h3 class="card-title text-dark">famille</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="/gallery/mariage/" class="text-decoration-none">
+          <img src="../../uploads/zhivko-minkov-ths82pkn5rg-unsplash.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h3 class="card-title text-dark">mariage</h3>
+          </div>
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 
 
 
-<h1></h1>
-<img src="" alt="">
+
+
+
 
 
 
@@ -39,5 +98,9 @@
   <footer>
   <p>Copyrignt 2022 | Tous droits réservés</p>
 </footer>
+  
+  <script src="../../js/bootstrap.bundle.min.js"></script>
+  
+  
 </body>
 </html>

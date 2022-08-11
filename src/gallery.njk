@@ -1,27 +1,32 @@
 ---
 layout: layout.njk
 ---
-<h1>Voici ma gallerie photo</h1>
-<div class="container-fluid">
+
+<div class="container-fluid m-2">
+  <div class="row pb-5">
+    <h1>Galerie photo</h1>
+  </div>
   <div class="row row-cols-6">
-    
-      {%- for category in collections.gallery %}
-      <div class="col">
-        <a href="{{ category.url }}"><h3>{{ category.data.category }}</h3></a> 
-        <img src="{{ category.data.photo }}" class="img-fluid" alt="">
-        </div>
-      {%- endfor %}
+    {%- for category in collections.gallery %}
+    <div class="col">
+      <div class="card">
+        <a href="{{ category.url }}" class="text-decoration-none">
+          <img src="{{ category.data.photo }}" class="card-img-top" alt="{{ category.data.description }}">
+          <div class="card-body">
+            <h3 class="card-title text-dark">{{ category.data.category }}</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+    {%- endfor %}
   </div>
 </div>
 
 
 
-<h1>{{ category }}</h1>
-<img src="{{ photo }}" alt="">
 
-{%- for items in photos %}
-<img src="{{ items }}" alt="">
-{%- endfor %}
+
+
 
 
 
