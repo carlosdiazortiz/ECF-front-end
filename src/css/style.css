@@ -7,22 +7,24 @@
   border-style: unset;
 }
 
-.index-img {
-  
-  position: absolute;
-  z-index: 0; 
+.index {
+  padding-top: 25vh;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
 }
 
 header {
   position: relative;
+  background-color: #050304;
+  
 }
 
-.coucou {
-  overflow: hidden;
+
+body {
+  background-image: url(../uploads/wioson-jiang.png);
+  background-size: cover;
 }
